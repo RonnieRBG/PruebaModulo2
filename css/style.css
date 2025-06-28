@@ -29,11 +29,33 @@
         border-radius: 10px;
 }
 
-.container3 {
+.container3, .container4 {
     display: flex;
     margin: 10px;
 }
 
-#caja1, #caja2, #caja3, #caja4, #caja5 {
-    margin: 35px;
+.caja {
+    background-color: #83d7ff;
+    border: 1px solid #202457;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 2px 5px 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-size-adjust: auto;
+    }
+
+    .caja h2 {
+        color: #2c3e50;
+    }
+
+    .caja p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        }
+
+.container2, .container5 {
+    text-align: center;
 }
