@@ -28,3 +28,12 @@
         margin-right: auto;
         border-radius: 10px;
 }
+
+.container3 {
+    display: flex;
+    margin: 10px;
+}
+
+#caja1, #caja2, #caja3, #caja4, #caja5 {
+    margin: 35px;
+}
