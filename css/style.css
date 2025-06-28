@@ -1,0 +1,30 @@
+.texto_central {
+    color:blue;
+    text-align: center;
+    font-size: 150%;
+    width: 93%;
+    border: 2px solid rgb(35, 92, 167);
+    border-radius: 33px;
+    margin: 5%;
+    font-family: monospace;
+}
+
+.texto_central2 {
+    color:blue;
+    text-align: center;
+    font-size: 120%;
+    width: 93%;
+    border: 2px solid rgb(35, 92, 167);
+    border-radius: 33px;
+    margin: 5%;
+    font-family: monospace;
+    height: 180px;
+    padding: 10px;
+}
+
+.img_inicio {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+}
