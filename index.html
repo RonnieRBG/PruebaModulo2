@@ -6,26 +6,23 @@
     <title>Document</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body style= "background-color: #00ffff1a;">
-<ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
-    <li class="nav-item" role="presentation">
-        <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">
-            Inicio</button>
-    </li>
-    <li class="nav-item" role="presentation">
-        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">
-            Amenazas Comunes</button>
-                <div class = "container2" >
-        <h1> Tipos de amenazas a la seguridad de la información </h1>
-        <h3> Las ciberamenazas se presentan en diversas formas, cada una de las cuales plantea retos únicos. Su comprensión es el primer paso para desarrollar estrategias de defensa eficaces.</h3>
-    </li>
-    <li class="nav-item" role="presentation">
-        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">
-            Consejos</button>
-    </li>
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="amenazas.html">Amenazas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="consejos.html">Consejos</a>
+            </li>
 </ul>
-<div class = "container-fluid" >
+<div class = "container-fluid">
+    <h1> Ciberseguridad </h1>
     <p class="texto_central"> La ciberseguridad se convirtió en algo más que una palabra de moda: se trata de una necesidad, 
         ya que con la creciente dependencia de la tecnología,
         tanto las empresas como los particulares, resultan más vulnerables que nunca a las amenazas informáticas. </p>
@@ -40,93 +37,12 @@
     <div> 
     <img src="img/citas-de-ciberseguridad.jpg" alt="" class = "img_inicio">
     </div>
-    <div class = "container2" >
-        <h1> Tipos de amenazas a la seguridad de la información </h1>
-        <h3> Las ciberamenazas se presentan en diversas formas, cada una de las cuales plantea retos únicos. Su comprensión es el primer paso para desarrollar estrategias de defensa eficaces.</h3>
-    </div>
-    <div class="container3"> 
-        <div class="caja"> 
-            <h2> 1. Malware </h2>
-                <p> Abreviación de software malicioso (malicious software), el malware incluye virus, gusanos informáticos, troyanos y 
-                    otros programas dañinos capaces de infiltrarse en los sistemas y causar daños. En concreto, puede robar, 
-                    cifrar o borrar datos confidenciales, siendo una de las ciberamenazas más comunes.</p>
-        </div>
-        <div class = "caja"> 
-        <h2>2. Phishing</h2>
-            <p> Los atacantes se hacen pasar por entidades legítimas para engañar a las personas y conseguir que 
-                faciliten información confidencial. Estos ataques suelen presentarse en forma de correos electrónicos 
-                o mensajes tramposos, que conducen al acceso no autorizado a datos personales o financieros.</p>
-        </div>
-        <div class = "caja"> 
-        <h2>3. Ransomware</h2>
-            <p> El ransomware es un tipo de malware que bloquea o cifra los datos de una víctima, 
-                exigiendo un rescate para su liberación, lo cual suele ser devastador tanto para las personas como para las organizaciones,
-                al provocar importantes pérdidas financieras y operativas.</p>
-        </div>
-        <div class = "caja"> 
-            <h2>4. Ataques DDoS</h2>
-            <p> Los ataques de Denegación de Servicio Distribuido (DDoS - Distributed Denial of Service) consisten en 
-                saturar una red o un sitio web con tráfico, dejándolo inutilizable. En consecuencia, provocan la interrupción de los servicios, 
-                causando importantes tiempos de inactividad y pérdidas en los ingresos.
-        </p>
-        </div>
-        <div class = "caja">
-            <h2>5. Amenazas internas</h2>
-                <p>Al proceder del interior de la organización, este tipo de ciberamenazas suele involucrar a empleados o 
-                    contratistas que hacen un uso indebido de su acceso a información sensible. Dichas amenazas pueden ser intencionadas o 
-                    accidentales, pero suponen un riesgo importante.
-                </p>
-        </div>
-    </div>
-    <div class = "container5" >
-        <h1>Buenas prácticas para impulsar la seguridad informática</h1>
-        <h3> Para protegerse contra las diversas amenazas que existen hoy en día, es fundamental aplicar las mejores prácticas de ciberseguridad como parte de una sólida estrategia amplia.</h3>
-    </div>
-    <div class= "container4" >
-        <div class="caja">
-    <h2>1. Actualizaciones periódicas del software</h2>
-    <p>
-        El mantenimiento del software actualizado garantiza que cualquier vulnerabilidad sea parcheada, reduciendo el riesgo de explotación por parte de los atacantes. 
-        Cuando se hace periódicamente resulta una forma sencilla pero eficaz de mejorar la ciberseguridad.
-    </p>
-</div>
-
-<div class="caja">
-    <h2>2. Políticas de contraseñas seguras</h2>
-    <p>
-        La aplicación de políticas de contraseñas sólidas, incluido el uso de passwords complejos y únicos, es crucial para evitar accesos no autorizados. 
-        Las herramientas de gestión de contraseñas también pueden ayudar a mantener credenciales seguras.
-    </p>
-</div>
-
-<div class="caja">
-    <h2>3. Formación de los empleados</h2>
-    <p>
-        Para crear una cultura consciente de la seguridad, resulta fundamental educar y formar a los empleados sobre las mejores prácticas de ciberseguridad y los riesgos de las ciberamenazas. 
-        Estas reuniones periódicas facilitan a los trabajadores el reconocimiento de los problemas.
-    </p>
-</div>
-
-<div class="caja">
-    <h2>4. Autenticación multifactor</h2>
-    <p>
-        La autenticación multifactor (MFA - multi factor authentication) añade una capa adicional de seguridad al exigir algo más que una contraseña para ingresar a las cuentas, reduciendo significativamente la probabilidad de acceso no autorizado.
-    </p>
-</div>
-
-<div class="caja">
-    <h2>5. Cifrado de datos</h2>
-    <p>
-        Gracias al cifrado de datos, si éstos caen en las manos equivocadas, serán ilegibles sin la clave. Esta práctica es esencial para proteger la información sensible.
-    </p>
-</div>
 
         </div>
-        
-
-
-
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
