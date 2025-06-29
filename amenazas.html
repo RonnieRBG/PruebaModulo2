@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body style= "background-color: #00ffff1a;">
         <ul class="nav nav-pills nav-fill">
@@ -23,38 +24,88 @@
         <h1> Tipos de amenazas a la seguridad de la información </h1>
         <h3> Las ciberamenazas se presentan en diversas formas, cada una de las cuales plantea retos únicos. Su comprensión es el primer paso para desarrollar estrategias de defensa eficaces.</h3>
     </div>
-    <div class="container3"> 
-        <div class="caja"> 
-            <h2> 1. Malware </h2>
-                <p> Abreviación de software malicioso (malicious software), el malware incluye virus, gusanos informáticos, troyanos y 
-                    otros programas dañinos capaces de infiltrarse en los sistemas y causar daños. En concreto, puede robar, 
-                    cifrar o borrar datos confidenciales, siendo una de las ciberamenazas más comunes.</p>
+    <div class="container3">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header"> 
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        Malware
+                    </button>
+                </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+            Abreviación de software malicioso (malicious software), el malware incluye virus, gusanos informáticos, troyanos y 
+            otros programas dañinos capaces de infiltrarse en los sistemas y causar daños. En concreto, puede robar, 
+            cifrar o borrar datos confidenciales, siendo una de las ciberamenazas más comunes.
         </div>
-        <div class = "caja"> 
-        <h2>2. Phishing</h2>
-            <p> Los atacantes se hacen pasar por entidades legítimas para engañar a las personas y conseguir que 
-                faciliten información confidencial. Estos ataques suelen presentarse en forma de correos electrónicos 
-                o mensajes tramposos, que conducen al acceso no autorizado a datos personales o financieros.</p>
+    </div>
+    </div>
+
+        <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Phishing
+                    </button>
+                </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Los atacantes se hacen pasar por entidades legítimas para engañar a las personas y conseguir que 
+                    faciliten información confidencial. Estos ataques suelen presentarse en forma de correos electrónicos 
+                    o mensajes tramposos, que conducen al acceso no autorizado a datos personales o financieros.
+                </div>
+            </div>
         </div>
-        <div class = "caja"> 
-        <h2>3. Ransomware</h2>
-            <p> El ransomware es un tipo de malware que bloquea o cifra los datos de una víctima, 
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Ransomware
+                </button>
+            </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                El ransomware es un tipo de malware que bloquea o cifra los datos de una víctima, 
                 exigiendo un rescate para su liberación, lo cual suele ser devastador tanto para las personas como para las organizaciones,
-                al provocar importantes pérdidas financieras y operativas.</p>
+                al provocar importantes pérdidas financieras y operativas.
+            </div>
         </div>
-        <div class = "caja"> 
-            <h2>4. Ataques DDoS</h2>
-            <p> Los ataques de Denegación de Servicio Distribuido (DDoS - Distributed Denial of Service) consisten en 
+    </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    Ataques DDoS
+                </button>
+            </h2>
+        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                Los ataques de Denegación de Servicio Distribuido (DDoS - Distributed Denial of Service) consisten en 
                 saturar una red o un sitio web con tráfico, dejándolo inutilizable. En consecuencia, provocan la interrupción de los servicios, 
                 causando importantes tiempos de inactividad y pérdidas en los ingresos.
-        </p>
+            </div>
         </div>
-        <div class = "caja">
-            <h2>5. Amenazas internas</h2>
-                <p>Al proceder del interior de la organización, este tipo de ciberamenazas suele involucrar a empleados o 
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                    Amenazas internas
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+      <div class="accordion-body">
+                    Al proceder del interior de la organización, este tipo de ciberamenazas suele involucrar a empleados o 
                     contratistas que hacen un uso indebido de su acceso a información sensible. Dichas amenazas pueden ser intencionadas o 
                     accidentales, pero suponen un riesgo importante.
-                </p>
+      </div>
+    </div>
+    </div>
+
+</div>
+        </div>
         </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
