@@ -49,3 +49,6 @@ Configurar .gitignore para excluir archivos innecesarios.
 Publicar el código en GitHub y compartir el enlace.
 
 Documentar el proyecto en README.md, explicando su estructura y funcionalidad.
+
+
+En una primera version de la pagina, con algunos problemas de expansion de los botones

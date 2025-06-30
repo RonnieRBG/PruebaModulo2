@@ -10,12 +10,20 @@ $(document).ready(function() {
 });
 
 $(document).ready(function () {
-  // Oculta todos los <p> al cargar
   $(".caja p").hide();
 
-  // Toggle al hacer clic en .caja
   $(".caja").click(function () {
-    $(this).find("p").slideToggle(); // Alterna con animación
+    $(this).find("p").slideToggle();
   });
 });
 
+$(document).ready(function() {
+  $(".nav-item").click(
+    function() {
+      $(this).addClass(".active");
+    },
+    function() {
+      $(this).removeClass(".active");
+    }
+  );
+});
