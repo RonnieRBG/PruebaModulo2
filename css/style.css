@@ -96,3 +96,51 @@
 .hovered {
     background-color: rgb(236, 149, 149);
 }
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+   height: 4em;
+  }
+
+  .texto_central,
+  .texto_central2 {
+    font-size: 1rem;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: fit-content;
+  }
+  .img_inicio {
+    width: 100%;
+  }
+  .nav, .titulo {
+    width: 100%;
+    justify-content: end;
+  }
+  .container4, .container5{
+    display: block
+  }
+
+  .container5 h1 {
+    font-size: 2em;
+  }
+
+  .container5 h3 {
+    font-size: 1em;
+  }
+
+  .formulario h1 {
+    text-align: center;
+  }
+}
